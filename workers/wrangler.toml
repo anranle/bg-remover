@@ -2,5 +2,5 @@ name = "bg-remover"
 main = "index.js"
 compatibility_date = "2024-01-01"
 
-[vars]
-# REMOVE_BG_API_KEY = "your-api-key-here"
+[env.production]
+name = "bg-remover"
